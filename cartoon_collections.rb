@@ -2,10 +2,9 @@ def roll_call_dwarves(names)
   i = 0
   names = ["Dopey", "Bashful", "Sneezy", "Sleepy", "Happy", "Grumpy", "Doc"]
   while i < array.length
-  puts names.each_with_index.split
+  return puts names.each_with_index.split
   i += 1
-end
-  names
+  end
 end
 
 def summon_captain_planet# code an argument here
