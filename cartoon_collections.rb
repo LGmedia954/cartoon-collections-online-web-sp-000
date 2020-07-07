@@ -1,6 +1,7 @@
 def roll_call_dwarves(names)
   i = 0
   names = ["Dopey", "Bashful", "Sneezy", "Sleepy", "Happy", "Grumpy", "Doc"]
+  
   while i < array.length
   names << yield(names[i]
   i += 1
