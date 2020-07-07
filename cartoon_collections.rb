@@ -11,7 +11,8 @@ roll_call_dwarves(names)
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(planeteer_calls)
-  
+  planeteer_calls.map do |elements|
+  puts elements.
 end
 
 def long_planeteer_calls# code an argument here
