@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
   i = 0
-  names =
+  names = ["Dopey", "Bashful", "Sneezy", "Sleepy", "Happy", "Grumpy", "Doc"]
   while i < names.each_with_index
   puts names.each_with_index.map
   i += 1
