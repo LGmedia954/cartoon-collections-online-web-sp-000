@@ -1,4 +1,5 @@
 def roll_call_dwarves(names = [])
+  
   puts names.each_with_index
 end
 
