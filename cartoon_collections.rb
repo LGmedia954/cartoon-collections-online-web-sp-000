@@ -34,6 +34,7 @@ long_planeteer_calls(planeteer_calls)
 
 
 snacks = ["crackers", "gouda", "thyme"]
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 
 def find_the_cheese# code an argument here
   # the array below is here to help
