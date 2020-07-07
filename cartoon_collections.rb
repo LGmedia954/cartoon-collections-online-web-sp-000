@@ -22,13 +22,11 @@ summon_captain_planet(planeteer_calls)
 short_words = ["puff", "go", "two"]
 assorted_words = ["two", "go", "industrious", "bop"]
 
-
-def long_planeteer_calls(short_words, assorted_words)
-  calls << (short_words, assorted words)
-  calls.any? { |letters| letters.length > 4 }
+def long_planeteer_calls(planeteer_calls)
+  planeteer_calls.any? { |call| call.length > 4 }
 end
 
-long_planeteer_calls(calls)
+long_planeteer_calls(planeteer_calls)
 
 
 
