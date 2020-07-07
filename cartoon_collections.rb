@@ -39,10 +39,10 @@ ingredients = ["garlic", "rosemary", "bread"]
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheese_types.find?(snacks, soup, ingredients)
-  cheese_types.include?
+  if cheese_types.include?(snacks, soup, ingredients)
+  return cheese_types.find
   else
-  false
+  nil
   end
 end
   
