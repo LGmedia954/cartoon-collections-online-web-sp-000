@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   names = ["Dopey", "Bashful", "Sneezy", "Sleepy", "Happy", "Grumpy", "Doc"]
   dwarves.collect do |dwarf|
-  puts names.each_with_index.
+  puts names.each_with_index.map.
   i += 1
 end
   roll_call_dwarves
