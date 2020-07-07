@@ -1,5 +1,6 @@
+names = %w[Doc Dopey Bashful Grumpy Sneezy Sleepy Happy]
+
 def roll_call_dwarves(names)
-  names = %w[Doc Dopey Bashful Grumpy Sneezy Sleepy Happy]
   names.each_with_index do |dwarf, index|
   puts "#{index + 1}. #{dwarf}"
   end
