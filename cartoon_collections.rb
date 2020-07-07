@@ -9,6 +9,7 @@ end
 roll_call_dwarves(names)
 
 
+
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(planeteer_calls)
@@ -19,6 +20,8 @@ end
 
 summon_captain_planet(planeteer_calls)
 
+
+
 short_words = ["puff", "go", "two"]
 assorted_words = ["two", "go", "industrious", "bop"]
 
@@ -27,6 +30,7 @@ def long_planeteer_calls(planeteer_calls)
 end
 
 long_planeteer_calls(planeteer_calls)
+
 
 
 def find_the_cheese# code an argument here
