@@ -1,4 +1,4 @@
-def roll_call_dwarves(names)
+def roll_call_dwarves(names = [])
   i = 0
   while i < names.each_with_index
   puts names.each_with_index
