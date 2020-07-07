@@ -1,5 +1,6 @@
 def roll_call_dwarves(names = [])
   i = 0
+  dwarves = []
   puts names.each_with_index
   while i < names.each_with_index
   
