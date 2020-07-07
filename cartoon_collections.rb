@@ -19,8 +19,8 @@ end
 short_words = ["puff", "go", "two"]
 assorted_words = ["two", "go", "industrious", "bop"]
 
-def long_planeteer_calls(calls)
-  calls.any? { |letters| letters.length > 4 }
+def long_planeteer_calls(words)
+  words.any? { |letters| letters.length > 4 }
 end
 
 long_planeteer_calls(calls)
