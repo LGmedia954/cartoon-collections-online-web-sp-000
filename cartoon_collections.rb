@@ -1,6 +1,8 @@
 def roll_call_dwarves(names = [])
   i = 0
   puts names.each_with_index
+  while i < names.each_with_index
+  
 end
 
 def summon_captain_planet# code an argument here
