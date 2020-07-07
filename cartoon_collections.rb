@@ -24,7 +24,7 @@ def long_planeteer_calls(calls)
   letters.length > 4
 end
 
-
+long_planeteer_calls(calls)
 
 def long_planeteer_calls(
   if assorted_words.length.any? > 4
