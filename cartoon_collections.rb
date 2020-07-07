@@ -5,6 +5,7 @@ def roll_call_dwarves(names)
   return puts names.each_with_index.split
   i += 1
   end
+  names
 end
 
 def summon_captain_planet# code an argument here
