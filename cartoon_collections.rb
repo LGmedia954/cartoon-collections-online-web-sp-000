@@ -21,7 +21,10 @@ assorted_words = ["two", "go", "industrious", "bop"]
 
 def long_planeteer_calls(short_words, assorted_words)
   if short_words.length.any? > 4
-  return short_words
+  elsif assorted_words.any? > 4
+  return true
+else
+  false
   end
 end
 
