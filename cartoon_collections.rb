@@ -38,6 +38,6 @@ soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 ingredients = ["garlic", "rosemary", "bread"]
 
 def find_the_cheese(array)
-  
   cheese_types = ["cheddar", "gouda", "camembert"]
+  array.string.find?
 end
