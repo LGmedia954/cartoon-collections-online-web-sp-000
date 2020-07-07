@@ -19,7 +19,9 @@ end
 short_words = ["puff", "go", "two"]
 
 def long_planeteer_calls(short_words)
- 
+  if short_words.length < 4
+  return short_words.find
+  end
 end
 
 assorted_words = ["two", "go", "industrious", "bop"]
