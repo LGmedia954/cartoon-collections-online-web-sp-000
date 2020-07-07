@@ -39,5 +39,5 @@ ingredients = ["garlic", "rosemary", "bread"]
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.string.find?
-end
+  if array.string.find?(snacks, soup, ingredients) == cheese_types
+  
