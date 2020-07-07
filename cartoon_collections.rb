@@ -17,17 +17,18 @@ def summon_captain_planet(planeteer_calls)
 end
 
 short_words = ["puff", "go", "two"]
+assorted_words = ["two", "go", "industrious", "bop"]
 
-def long_planeteer_calls(short_words)
-  if short_words.length.any? < 4
+def long_planeteer_calls(short_words, assorted_words)
+  if short_words.length.any? > 4
   return short_words
   end
 end
 
-assorted_words = ["two", "go", "industrious", "bop"]
 
-def long_planeteer_calls(assorted_words)
- 
+
+def long_planeteer_calls(
+  if assorted_words.length.any? > 4
 end
 
 
