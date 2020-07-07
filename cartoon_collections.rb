@@ -1,7 +1,7 @@
 def roll_call_dwarves(names)
   i = 0
   names = ["Dopey", "Bashful", "Sneezy", "Sleepy", "Happy", "Grumpy", "Doc"]
-  dwarves.collect do |dwarf|
+  while i < array.length
   puts names.each_with_index.split
   i += 1
 end
