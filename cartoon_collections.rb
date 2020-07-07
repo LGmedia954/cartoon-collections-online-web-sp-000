@@ -19,13 +19,9 @@ end
 short_words = ["puff", "go", "two"]
 assorted_words = ["two", "go", "industrious", "bop"]
 
-def long_planeteer_calls(short_words, assorted_words)
-  if short_words.length.any? > 4
-  elsif assorted_words.any? > 4
-  return true
-else
-  false
-  end
+def long_planeteer_calls(calls)
+  calls.any? |letters|
+  letters.length > 4
 end
 
 
