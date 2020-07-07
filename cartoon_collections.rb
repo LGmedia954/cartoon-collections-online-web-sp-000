@@ -20,7 +20,7 @@ short_words = ["puff", "go", "two"]
 
 def long_planeteer_calls(short_words)
   if short_words.length.any? < 4
-  return short_words.find
+  return short_words
   end
 end
 
