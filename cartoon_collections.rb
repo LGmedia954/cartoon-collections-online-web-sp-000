@@ -33,12 +33,11 @@ long_planeteer_calls(planeteer_calls)
 
 
 
-snacks = ["crackers", "gouda", "thyme"]
-soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
-ingredients = ["garlic", "rosemary", "bread"]
+food_stuff = []
 
-def find_the_cheese(snacks, soup, ingredients)
+def find_the_cheese(food_stuff)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  food_stuff.find do |mystery_food|
   if cheese_types.include?(snacks, soup, ingredients)
   return cheese_types.find
   else
