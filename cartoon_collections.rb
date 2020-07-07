@@ -20,9 +20,15 @@ short_words = ["puff", "go", "two"]
 
 def long_planeteer_calls(short_words)
  
- 
+end
+
+assorted_words = ["two", "go", "industrious", "bop"]
+
+def long_planeteer_calls(assorted_words)
  
 end
+
+
 
 def find_the_cheese# code an argument here
   # the array below is here to help
